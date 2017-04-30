@@ -14,8 +14,8 @@
             border: 22px solid #fff;
         }
         
-        #solutions .ui-listview > li h2 {
-            margin: 20px 25px 0;
+        #solutions .ui-listview > li h3, #solutions .ui-listview > li p {
+            padding-left: 25px;
         }
         
         nav a.ui-btn {
@@ -23,7 +23,7 @@
         }
         
         h1, h2, h3, h4, h5, h6 {
-            font-weight: 500;
+            font-weight: 600;
         }
     </style>
 </head>
@@ -32,7 +32,7 @@
     <div data-role="page" id="home">
         <nav data-role="panel" id="nav" data-display="overlay" data-position="left">
             <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-nodisc-icon" data-rel="close">Close</a>
-            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Home</a>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top ui-shadow ui-mini ui-alt-icon ui-btn-active">Home</a>
             <a href="#solutions" class="ui-btn ui-icon-gear ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Solutions</a>
             <a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Contact</a>
         </nav>
@@ -41,9 +41,9 @@
             <h1>Vecta Corporation</h1>
         </header>
         <section data-role="content">
-            <h3>Welcome to Vecta Corporation</h3>
+            <h4>Welcome to Vecta Corporation</h4>
             <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction.</p>
-            <h3>Client Testimonials</h3>
+            <h4>Client Testimonials</h4>
             <section data-role="collapsibleset">
                 <section data-role="collapsible">
                     <h4>Iona Ford</h4>
@@ -70,7 +70,7 @@
         <nav data-role="panel" id="nav" data-display="overlay" data-position="left">
             <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-nodisc-icon" data-rel="close">Close</a>
             <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Home</a>
-            <a href="#solutions" class="ui-btn ui-icon-gear ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Solutions</a>
+            <a href="#solutions" class="ui-btn ui-icon-gear ui-btn-icon-top ui-shadow ui-mini ui-alt-icon ui-btn-active">Solutions</a>
             <a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Contact</a>
         </nav>
         <header data-role="header">
@@ -81,19 +81,22 @@
             <ul data-role="listview" data-inset="true">
                 <li><a href="#prospect">
                     <img src="images/vprospect.gif">
-                    <h2>vProspect 2.0</h2>
+                    <h3>vProspect 2.0</h3>
+                    <p>Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p>
                     </a>
                     <a href="#prospect"></a>
                 </li>
                 <li><a href="convert">
                     <img src="images/vconvert.gif">
-                    <h2>vConvert 2.0</h2>
+                    <h3>vConvert 2.0</h3>
+                    <p>Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p>
                     </a>
                     <a href="#convert"></a>
                 </li>
                 <li><a href="retain">
                     <img src="images/vretain.gif">
-                    <h2>vRetain 1.0</h2>
+                    <h3>vRetain 1.0</h3>
+                    <p>Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p>
                     </a>
                     <a href="#retain"></a>
                 </li>
@@ -156,7 +159,7 @@
             <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-nodisc-icon" data-rel="close">Close</a>
             <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Home</a>
             <a href="#solutions" class="ui-btn ui-icon-gear ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Solutions</a>
-            <a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top ui-shadow ui-mini ui-alt-icon">Contact</a>
+            <a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top ui-shadow ui-mini ui-alt-icon ui-btn-active">Contact</a>
         </nav>
         <header data-role="header">
             <a href="#nav">MENU</a>
